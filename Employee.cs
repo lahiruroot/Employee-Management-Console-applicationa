@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         double travelAllowance, performanceincentive, MS;
         public void salary(double BS,double NL,double YS)
         {
-            if(NL<=2)
+            if(NL<=3)
             {
                 performanceincentive = BS * 0.2;
             }
@@ -25,7 +25,7 @@ namespace ConsoleApplication1
                 travelAllowance = 10000;
 
             }
-            else if(YS>2)
+            else if(YS>3)
             {
                 travelAllowance = 5000;
 
